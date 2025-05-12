@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saludo Personalizado</title>
+    <link rel="stylesheet" href="saludo.css">
+    <script defer src="./dist/saludar.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nube">
+        <h1>Bienvenidos</h1>
+      </div>
+      <p>Ingresa tu nombre:</p>
+      <input type="text" id="nombre" placeholder="Escribe tu nombre" />
+      <button onclick="mostrarSaludo()">Siguiente</button>
+      <p id="saludo"></p>
+    </div>
+  </body>
+</html>
